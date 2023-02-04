@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <title>2D_Game</title>
+</head>
+
+<!--start of body-->
+<body onkeyup="key(event)">
+    <div class="b" id="b">
+        <img class="boy" id="boy" src="Run (1).png" alt="" />
+        <p class="score" id="score">0</p>
+    </div>
+    <div class="end" id="end">
+        <div>Game Over!</div>
+        <div>Your Score</div>
+        <div id="endscore">0</div>
+        <img class="lossboy" src="lossboy.png" alt="lossboy">
+        <button class="btn" onclick="re();">Try Again</button>
+    </div>
+    <div class="win" id="win">
+        <div class="winp" id="winp">YOU WIN!</div>
+        <img class="winboy" src="winboy.png" alt="winboy">
+        <button>Nex Level</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
